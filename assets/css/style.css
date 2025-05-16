@@ -41,12 +41,27 @@ h1 {
     color: #252525
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 /* Main */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto
 }
+
 
 /* Footer */
 footer {
