@@ -12,7 +12,7 @@
 body {
     min-height: 100vh;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
@@ -23,25 +23,25 @@ body {
 header {
     background-color: #ffffff;
     padding: 0 1rem;
-    position:fixed;
+    position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a3a;
-    display:flex;
-    justify-content:space-between;
-    align-items:baseline;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
     text-decoration: none;
-    color: inherit
+    color: inherit;
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #252525
+    color: #252525;
 }
 
 #menu {
@@ -51,7 +51,7 @@ h1 {
 }
 
 #menu > li {
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .active {
@@ -60,13 +60,13 @@ h1 {
 
 /* Navbar styles with dropdown */
 nav {
-    position:absolute;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a3a;
-    display:none;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
     top: 100%;
 }
 
@@ -98,4 +98,32 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+}
+
+/* Media query: tablets - 768px and up */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        font-size: 120%;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
 }
