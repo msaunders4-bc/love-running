@@ -99,7 +99,7 @@ main {
 @media screen and (min-width: 768px) {
     /* header */
     nav {
-        display:block;
+        display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
@@ -129,6 +129,7 @@ main {
     main {
         margin-top: 79px;
     }
+} 
 
     /* Footer */
     #social-networks {
@@ -144,7 +145,6 @@ main {
         padding: 5%;
         color: #3a3a3a;
     }
-}
 
 @media screen and (min-width: 992px) {
     /* display hover over links */
