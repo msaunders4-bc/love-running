@@ -119,27 +119,6 @@ main {
     color: #ffffff;
 }
 
-#reasons {
-    width: 90%;
-    margin: auto;
-}
-
-#reasons h2 {
-    font-size: 280%;
-    text-align: center;
-    margin: 20px;
-}
-
-#benefits p {
-    border-top:1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-#benefits-physical, #benefits-mental {
-    line-height: 20px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
 
 /* Media query: tablets - 768px and up */
 @media screen and (min-width: 768px) {
@@ -188,6 +167,44 @@ main {
     #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
+}
+
+#reasons {
+    width: 90%;
+    margin: auto;
+}
+
+#reasons h2 {
+    font-size: 280%;
+    text-align: center;
+    margin: 20px;
+}
+
+#benefits p {
+    border-top:1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits-physical, #benefits-mental {
+    line-height: 20px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 
