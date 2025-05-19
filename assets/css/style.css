@@ -158,6 +158,8 @@ main {
 }
 
 
+
+
     /* Footer */
     #social-networks {
         text-align: center;
@@ -189,7 +191,7 @@ main {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -220,12 +222,12 @@ main {
         width: 100%;
     }
 
-    #benefits-physical > div, 
-    #benefits-mental > div {
+    #benefits-physical>div, 
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
